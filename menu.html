@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <title>Menu</title>
+</head>
+
+<body class="btn-primary">
+    <nav class="navbar navbar-expand-lg navbar-light btn-info">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html"><img src="./img/unicorn.jpg" alt="Pretty Picture" width=33
+                    height=25></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./order.html">Order</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./admin.html">Admin</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-8">
+                <table id="menu-table" class="table table-striped table-dark">
+                    <thead>
+                        <tr>
+                            <td scope="col" class="col-2">Picture</td>
+                            <td scope="col" class="col-2">Name</td>
+                            <td scope="col" class="col-6">Description</td>
+                            <td scope="col" class="col-2">Price</td>
+                        </tr>
+                    </thead>
+                    <tbody id="menu-table-body">
+            
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-2"></div>
+        </div>
+    </div>
+
+</body>
+<script src="/scripts/menu.js"></script>
+
+</html>

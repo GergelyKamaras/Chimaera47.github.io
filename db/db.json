@@ -1,0 +1,18 @@
+{
+    "hamburgers" : [{"picture": "", "name": "Horse Burger", "description": "Made from the finest steeds, they are waiting to gallop into your mouth", "price": "1200 Ft"},
+        {"picture": "", "name": "Beef Burger", "description": "These cows were dying to be eaten, we hope you will oblige", "price": "1400 Ft"},
+        {"picture": "", "name": "Pork Burger", "description": "These put the ham in the burger", "price": "1000 Ft"},
+        {"picture": "", "name": "Vegan burger", "description": "Environmental responsibility and population control all in one burger", "price": "1500 Ft"}],
+
+    "sandwiches" : [{"picture": "", "name": "Cheese sandwich", "description": "For the lactose tolerant or the brave", "price": "500 Ft"},
+        {"picture": "", "name": "Frutti di Mare", "description": "The bounty of the seas between two slices of bread", "price": "800 Ft"}],
+
+    "drinks" : [
+        {"picture": "", "name": "Beer", "description": "Beer? Beer. Beeeeer!", "price": "500 Ft"},
+        {"picture": "", "name": "Jamba Juice", "description": "No idea what it is, we just serve it", "price": "10.000 Ft"}],
+    "users" : [
+        {"id" : "", "name" : "", "addres" : "", "tel" : "", "email" : ""},
+        {"id" : "", "name" : "", "addres" : "", "tel" : "", "email" : ""},
+        {"id" : "", "name" : "", "addres" : "", "tel" : "", "email" : ""}
+    ]
+}

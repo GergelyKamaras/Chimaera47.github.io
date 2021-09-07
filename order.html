@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <title>Order</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light btn-info">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html"><img src="./img/unicorn.jpg" alt="Pretty Picture" width=33
+                    height=25></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./order.html">Order</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./admin.html">Admin</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-6">
+                <form>
+                    <div class="form-group">
+                        <fieldset id="hamburger-fields">
+                            <legend>Hamburgers</legend>
+                            <div class="form-group">
+                                <label for="hamburger-meat" class="form-label">Choose your meat:</label>
+                                <select class="form-control" name="hamburger-meat" id="hamburger-meat">
+                                    <option value="Horse">Horse 1.200 Ft</option>
+                                    <option value="Beef">Beef 1.400 Ft</option>
+                                    <option value="Pork">Pork 1.000 Ft</option>
+                                    <option value="Vegan">Vegan 1.500 Ft</option>
+                                </select>
+                            </div>
+                            <div id="meat-size-radios">
+                                <label for="meat-size" class="form-label">Choose meat size:</label>
+                                <div class="form-check">
+                                    <input type="radio" class="form-check-input" name="meat-size" id="normal" value="Normal" checked>
+                                    <label for="normal" class="form-check-label">Normal + 0 Ft</label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="radio" class="form-check-input" name="meat-size" id="large" value="Large">
+                                    <label for="large" class="form-check-label">Large + 500 Ft</label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="radio" class="form-check-input" name="meat-size" id="double" value="Double">
+                                    <label for="double" class="form-check-label">Double + 1.000 Ft</label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="radio" class="form-check-input" name="meat-size" id="monster" value="Monster">
+                                    <label for="monster" class="form-check-label">Monster + 1.500 Ft</label>
+                                </div>
+                            </div>
+                            <div id="sauce-checkboxes">
+                                <label for="sauce-checkboxes">Choose your sauces:</label>
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="mustard" value="Mustard">
+                                    <label class="form-check-label" for="mustard">Mustard</label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="bbq" value="Bbq">
+                                    <label class="form-check-label" for="bbq">Bbq</label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="mayonnaise" value="Mayonnaise">
+                                    <label class="form-check-label" for="mayonnaise">Mayonnaise</label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="ketchup" value="Ketchup">
+                                    <label class="form-check-label" for="ketchup">Ketchup</label>
+                                </div>
+                            </div>
+                            <div class="form-group" id="extra-toppings">
+                                <label for="extra-toppings">Extra toppings:</label>
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="bacon" value="Bacon">
+                                    <label class="form-check-label" for="bacon">Bacon + 200 Ft</label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="cheese" value="Cheese">
+                                    <label class="form-check-label" for="cheese">Cheese + 200 Ft</label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="onions" value="Onions">
+                                    <label class="form-check-label" for="onions">Onions + 200 Ft</label>
+                                </div>
+                            </div>
+                            <div class="form-group" id="amount-selector">
+                                <label for="amount-selector">Please choose amount:</label>
+                                <select class="form-control" id="burger-amount">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                </select>
+                            </div>
+                            <div class="text-center">
+                                <button type="button" class="btn btn-primary" id="add-to-cart">Add to cart</button>
+                            </div>
+                        </fieldset>
+                    </div>
+                </form>
+            </div>
+            <div class="col-3">
+                <ul id="cart-contents"></ul>
+                <p>Total:<span id="cart-sum"></span></p>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+<script src="./scripts/order.js"></script>
+</html>
